@@ -1,8 +1,9 @@
 html {
-  background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #FC766AFF 50%, #fafafa 50%);
-  min-height: 1000px;
-  font-family: 'helvetica neue';
+  background-color: #e4e9fd;
+  background-image: -webkit-linear-gradient(65deg, #fc766aff 50%, #fafafa 50%);
+  background-repeat: no-repeat;
+  min-height: 100%;
+  font-family: "helvetica neue";
 }
 
 h1 {
@@ -19,7 +20,7 @@ h1 {
 }
 
 #heading {
-  background-color: #FC766AFF;
+  background-color: #fc766aff;
   text-align: center;
 }
 
@@ -27,16 +28,16 @@ h1 {
   min-height: 70px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 .item:last-child {
   border-bottom: 0;
 }
 
-input:checked+p {
+input:checked + p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
+  text-decoration-color: #a683e3;
 }
 
 input[type="checkbox"] {
@@ -81,7 +82,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #A683E3;
+  box-shadow: inset 0 -3px 0 0 #a683e3;
 }
 
 ::placeholder {
